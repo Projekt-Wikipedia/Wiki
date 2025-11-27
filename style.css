@@ -18,14 +18,24 @@
     height: auto;
 }
 
+.text1{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 0%;
+    margin-left: 2%;
+    border: 1px solid rgb(29, 167, 205);
+    font-size: large;
+    margin-right: 60%;
+}
+
 .layout-1 input {
+    display: grid;
     padding: 10px 20px;
     width: 250px;
     font-size: 1rem;
+    grid-template-columns: 1fr 1fr 1fr;
+
 }
-
-
-
 
 /*
 {
