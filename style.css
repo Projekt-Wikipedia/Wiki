@@ -13,24 +13,6 @@
     gap: 15px;
 }
 
-.layout-2{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: right;
-    padding: 50px;
-    gap: 10px;
-}
-
-.logo {
-    width: 80px;
-    height: auto;
-}
-
-.text1{
-    border: 1px solid rgb(29, 167, 205);
-    font-size: large;
-    margin-left: 0%;
-}
 
 .layout-1 input {
     display: grid;
@@ -41,24 +23,23 @@
 
 }
 
-
-/*
-{
-    box-sizing: border-box;
+.logo {
+    width: 80px;
+    height: auto;
 }
 
-.Rubrik{
-    margin-left: 10%;
-    margin-top: 1%;
-    font-size: large;
+
+.searchbar {
+    padding: 10px 20px;
+    width: 250px;
+    font-size: 1rem;
 }
 
-.layout-1{
-    border: 1px solid black;
-    grid-template-columns: 1fr 1fr 1fr;
+.section {
+    padding: 50px;
 }
 
-.searchbar{
-    text-align: center;
+.section h2 {
+    margin-bottom: 20px;
 }
-*/
+
